@@ -1,0 +1,9 @@
+<!-- <mat-progress-bar mode="indeterminate" *ngIf="isLoading">Progress</mat-progress-bar> -->
+<mat-stepper orientation="vertical" [linear]="isLinear" #stepper>
+    <mat-step label="Step One">
+        <ng-template matStepLabel>Placing a Book Order</ng-template>
+    </mat-step>
+    <mat-step label="Step Two">
+        <ng-template matStepLabel>Hi</ng-template>
+    </mat-step>
+</mat-stepper>
