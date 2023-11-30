@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+1. create a new project -> ng new [project-name]
+2. npm install -g @angular/cli
+3. npm i primeng
+4. npm install primeng --save
+5. npm install primeicons --save
