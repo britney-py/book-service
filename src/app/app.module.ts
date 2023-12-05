@@ -13,12 +13,16 @@ import { HomeComponent } from './home/home.component';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatProgressBarModule } from '@angular/material/progress-bar';
+// import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { NavComponent } from './nav/nav.component';
+import { CatalogComponent } from './catalog/catalog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    NavComponent,
+    CatalogComponent
   ],
   imports: [
     BrowserModule,
