@@ -1,0 +1,24 @@
+.nav {
+    background-color: rgb(129, 176, 228);
+    color: black;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+mat-icon {
+    display: inline-flex;
+    vertical-align: text-bottom;
+    // font-size: em;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-size: 1.2em;
+}
